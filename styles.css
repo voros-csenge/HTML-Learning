@@ -1,0 +1,13 @@
+body{
+    background-color:bisque;
+}
+
+h1{
+    color: rgba(165, 42, 42, 0.505);
+}
+h3{
+    color: rgb(158, 97, 97);
+}
+p{
+    background-color: rgba(165, 42, 42, 0.505); color:bisque;
+}
