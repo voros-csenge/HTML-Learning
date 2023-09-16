@@ -1,0 +1,22 @@
+body{
+   background-image: url("../assets/aranygaluska.jpg");
+   background-size: cover;
+   
+}
+p,h1,h3{
+    background: linear-gradient(to right, skyblue, darkblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+    padding: 5px;
+}
+h1{
+    background: linear-gradient(to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h3{
+    background: linear-gradient(to right, white, darkblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
