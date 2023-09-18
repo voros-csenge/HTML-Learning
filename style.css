@@ -5,7 +5,7 @@ width: 60%;
     width: 30%;
 }
 #homepage{
-    position:sticky;
-    top: 20px;
-/*It's not working, I don't know why, but I will fix it*/
+    width: 30%;
+    position: sticky;
+    top: 0px;
 }
