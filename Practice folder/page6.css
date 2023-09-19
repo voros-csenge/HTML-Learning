@@ -32,3 +32,11 @@ button:active{
 li:nth-child(5n+2){
     background-color:rgb(245, 12, 167)
 }
+
+h1{
+    text-shadow: 5px 5px 2px pink, 0px -5px 5px red;
+    
+}
+h1:hover{
+    box-shadow: 2px 2px 2px black;
+}
