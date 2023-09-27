@@ -20,6 +20,17 @@ document.write(phrase);
 document.write(phrase);
 document.write(phrase);
 
+var phrase = "Strings are fun!"
+var text = "are cool!"
+document.write(phrase.toUpperCase());
+document.write(phrase.charAt(8));
+document.write(phrase.indexOf("s"));
+document.write(phrase.lastIndexOf("o"));
+document.write(phrase.substring(0,6));
+document.write(phrase.substring(phrase.indexOf("g"),phrase.length));
+document.write(phrase.endsWith("fun"));
+document.write(phrase.endsWith("fun!"));
+document.write(phrase + " " + text);
 
 
 document.write("Script.js")
