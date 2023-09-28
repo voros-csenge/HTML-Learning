@@ -5,31 +5,20 @@ var isMale = false;
 var flaws = null;
 var discription = undefined;*/
 
+/*document.write(phrase);
 document.write(phrase);
-document.write("<br>");
 document.write(phrase);
-document.write("<br>");
 document.write(phrase);
-document.write("<br>");
-document.write(phrase);
-document.write("<br>");
 phrase = "Piri"
 document.write(phrase);
-document.write("<br>");
 document.write(phrase);
-document.write("<br>");
 document.write(phrase);
-document.write("<br>");
 document.write(phrase);
-document.write("<br>");
 
 phrase = "My dog's names"
 document.write(phrase);
-document.write("<br>");
 document.write(phrase);
-document.write("<br>");
 document.write(phrase);
-document.write("<br>");
 document.write(phrase);
 document.write("<br>");
 
@@ -53,6 +42,7 @@ document.write(phrase.endsWith("fun!"));
 document.write("<br>");
 document.write(phrase + " " + text);
 document.write("<br>");
+document.write("<hr/>")
 
 document.write("Script.js")
 // alert("The file is working")
@@ -73,3 +63,11 @@ document.write("<br>");
 document.write(Math.sqrt(36))
 document.write("<br>");
 document.write(Math.round(Math.random()*10))
+document.write("<br>");
+document.write("<hr/>")
+document.write("<br>");
+document.write("<br>");
+*/
+var name = window.prompt("What is your name?")
+var age = window.prompt("How old are you?")
+document.write("Hello " + name + "! How are you today? Do you like being " + age + " years old?")
