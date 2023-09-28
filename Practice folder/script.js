@@ -67,7 +67,13 @@ document.write("<br>");
 document.write("<hr/>")
 document.write("<br>");
 document.write("<br>");
-*/
+
 var name = window.prompt("What is your name?")
 var age = window.prompt("How old are you?")
 document.write("Hello " + name + "! How are you today? Do you like being " + age + " years old?")
+*/
+var num1 = window.prompt("Hello User! Enter a number")
+var num2 = window.prompt("Enter another number")
+num1 = parseFloat(num1)
+num2 = parseFloat(num2)
+document.write(num1 + num2)
