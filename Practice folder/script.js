@@ -71,9 +71,22 @@ document.write("<br>");
 var name = window.prompt("What is your name?")
 var age = window.prompt("How old are you?")
 document.write("Hello " + name + "! How are you today? Do you like being " + age + " years old?")
-*/
+
 var num1 = window.prompt("Hello User! Enter a number")
 var num2 = window.prompt("Enter another number")
 num1 = parseFloat(num1)
 num2 = parseFloat(num2)
 document.write(num1 + num2)
+*/
+//var fruits = new Array("Apples", "Oranges", "Peaches")
+var fruits = ["Apples", "Oranges", "Peaches"]
+fruits[0] = "Oranges"
+document.write(fruits[0])
+document.write("<br>")
+document.write(fruits.length)
+document.write("<br>")
+document.write("<br>")
+var fruits = "Apples, Oranges, Peaches"
+fruits = fruits.split(",")
+document.write(fruits[2])
+
