@@ -1,4 +1,4 @@
-var phrase = "Lajka";
+//var phrase = "Lajka";
 //var age = 26;
 /*var gps = 4.3;
 var isMale = false;
@@ -77,7 +77,7 @@ var num2 = window.prompt("Enter another number")
 num1 = parseFloat(num1)
 num2 = parseFloat(num2)
 document.write(num1 + num2)
-*/
+
 //var fruits = new Array("Apples", "Oranges", "Peaches")
 var fruits = ["Apples", "Oranges", "Peaches"]
 fruits[0] = "Oranges"
@@ -89,4 +89,16 @@ document.write("<br>")
 var fruits = "Apples, Oranges, Peaches"
 fruits = fruits.split(",")
 document.write(fruits[2])
+*/
+ function sayHi(name, age){
+    //var name = "Joe"
+    document.write("<h1>Hello " + name + "</h1>")
+    document.write("<p>You are " + age + "</p>")
+ }
+ sayHi("Csenge", 26)
+ sayHi("Sebastian", 30)
 
+ function addition(num1, num2){
+    return num1 * num2;
+ }
+ document.write(addition(4, 5));
