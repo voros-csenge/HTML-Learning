@@ -101,8 +101,15 @@ document.write(fruits[2])
     return num1 * num2;
  }
  document.write(addition(4, 5));
-*/
+
 var header = document.getElementById("header")
 header.innerHTML = "Csenge"
 header.style.color = "darkgreen"
 header.style.backgroundColor = "lightgreen"
+*/
+function handleClick(element){
+   //alert("Clicked")
+   element.innerHTML = "Clicked"
+   element.style = "background-color:yellow"
+   
+}
