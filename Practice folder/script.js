@@ -111,5 +111,9 @@ function handleClick(element){
    //alert("Clicked")
    element.innerHTML = "Clicked"
    element.style = "background-color:yellow"
-   
 }
+   var image = document.getElementById("séfsaláta")
+   image.addEventListener("mouseover", function(){
+      this.style = "box-shadow: 2px 2px 2px grey"
+      this.width = "150"
+   })
