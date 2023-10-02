@@ -112,8 +112,18 @@ function handleClick(element){
    element.innerHTML = "Clicked"
    element.style = "background-color:yellow"
 }
-   var image = document.getElementById("séfsaláta")
+   var image = document.getElementById("sefsalata")
+   console.log("this is image")
+   console.log(image)
    image.addEventListener("mouseover", function(){
-      this.style = "box-shadow: 2px 2px 2px grey"
-      this.width = "150"
+      this.style = "box-shadow: 2px 2px 2px grey";
+      this.width = "500"
+   })
+
+   var image = document.getElementById("sefsalata")
+   console.log("this is image")
+   console.log(image)
+   image.addEventListener("mouseout", function(){
+      this.style = "";
+      this.width = "200"
    })
