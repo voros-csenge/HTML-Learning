@@ -106,12 +106,11 @@ var header = document.getElementById("header")
 header.innerHTML = "Csenge"
 header.style.color = "darkgreen"
 header.style.backgroundColor = "lightgreen"
-*/
+
 function handleClick(element){
    //alert("Clicked")
    element.innerHTML = "Clicked"
    element.style = "background-color:yellow"
-}
    var image = document.getElementById("sefsalata")
    console.log("this is image")
    console.log(image)
@@ -119,7 +118,6 @@ function handleClick(element){
       this.style = "box-shadow: 2px 2px 2px grey";
       this.width = "500"
    })
-
    var image = document.getElementById("sefsalata")
    console.log("this is image")
    console.log(image)
@@ -127,3 +125,15 @@ function handleClick(element){
       this.style = "";
       this.width = "200"
    })
+   */
+var bla = document.getElementById("bla");
+console.log(bla)
+var text = document.getElementById("textbox");
+var button = document.getElementById("button");
+button.addEventListener("click", function(){
+   var newBla = document.createElement("li");
+   newBla.innerHTML = textbox.value;
+   bla.appendChild(newBla);
+   console.log("hello");
+   textbox.value = "";
+})
