@@ -125,7 +125,7 @@ function handleClick(element){
       this.style = "";
       this.width = "200"
    })
-   */
+   
 var bla = document.getElementById("bla");
 console.log(bla)
 var text = document.getElementById("textbox");
@@ -137,3 +137,16 @@ button.addEventListener("click", function(){
    console.log("hello");
    textbox.value = "";
 })
+*/
+var isMale = false
+var isTall = true
+if (isMale && isTall) {
+//   if (isMale || isTall) {
+   document.write("You are a tall male")
+} else if(isMale && !isTall){
+   document.write("You are a short male")
+} else if(!isMale && isTall){
+   document.write("You are not male but you are tall")
+} else {
+   document.write("You are not tall and not a male")
+}
