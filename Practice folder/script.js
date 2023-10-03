@@ -138,6 +138,7 @@ button.addEventListener("click", function(){
    textbox.value = "";
 })
 */
+//if statements
 var isMale = false
 var isTall = true
 if (isMale && isTall) {
