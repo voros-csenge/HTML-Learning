@@ -151,8 +151,8 @@ if (isMale && isTall) {
 } else {
    document.write("You are not tall and not a male")
 }
-*/
-//If Statements w/ comparisons
+
+//If Statements max number
 function max(num1, num2, num3){
    if(num1 >= num2 && num1 >= num3){
       return num1
@@ -163,3 +163,40 @@ function max(num1, num2, num3){
    }
 }
 document.write(max(24, 15, 6))
+*/
+//Switch Statements
+function getDayName(dayNum){
+   var day
+   //if(dayNum == 0){
+      //day = "Sunday"
+   //} else if(dayNum = 1){
+      //day = "Monday"
+   //}
+   switch(dayNum){
+      case 0:
+         day = "Sunday"
+         break
+      case 1:
+         day = "Monday"
+         break
+      case 2:
+         day = "Tuesday"
+         break
+      case 3:
+         day = "Wednesday"
+         break
+      case 4:
+         day = "Thursday"
+         break
+      case 5:
+         day = "Friday"
+         break
+      case 6:
+         day = "Saturday"
+         break
+      default:
+         day = "Day doesn't exit, " + dayNum + " isn't a valid number!"
+   }
+   return day
+}
+document.write(getDayName(5))
