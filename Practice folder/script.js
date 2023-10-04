@@ -200,7 +200,7 @@ function getDayName(dayNum){
    return day
 }
 document.write(getDayName(5))
-*/
+
 //Objects
 //var fruits = ["Apples", "Orange"]
 var person = {
@@ -216,3 +216,23 @@ var person = {
 //person.age = 25
 //document.write(person.age + person.name)
 person.printName()
+*/
+//Real world objects
+var myMovie = {
+   title: "The Social Network",
+   realeaseYear: "2020",
+   duration: 2.0,
+   actors: [
+      {
+         name: "Jessie Eisenberg",
+         birthday: new Date("October 5, 1983"),
+         hometown: "New York, New York"
+      },
+      {
+         name: "Rooney Mara",
+         birthday: new Date("April 17, 1985"),
+         hometown: "Bedford, New York"
+      }
+   ]
+}
+document.write(myMovie.actors[1].hometown)
