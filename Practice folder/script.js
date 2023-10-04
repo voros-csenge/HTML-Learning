@@ -216,7 +216,7 @@ var person = {
 //person.age = 25
 //document.write(person.age + person.name)
 person.printName()
-*/
+
 //Real world objects
 var myMovie = {
    title: "The Social Network",
@@ -236,3 +236,10 @@ var myMovie = {
    ]
 }
 document.write(myMovie.actors[1].hometown)
+*/
+//While Loops
+var i = 1;
+while(i <= 10){
+   document.write(i + "<br/>");
+   i++;
+}
