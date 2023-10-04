@@ -137,8 +137,8 @@ button.addEventListener("click", function(){
    console.log("hello");
    textbox.value = "";
 })
-*/
-//if statements
+
+//if statement
 var isMale = false
 var isTall = true
 if (isMale && isTall) {
@@ -151,3 +151,15 @@ if (isMale && isTall) {
 } else {
    document.write("You are not tall and not a male")
 }
+*/
+//If Statements w/ comparisons
+function max(num1, num2, num3){
+   if(num1 >= num2 && num1 >= num3){
+      return num1
+   } else if(num2 >= num1 && num2 >= num3){
+      return num2
+   } else{
+      return num3
+   }
+}
+document.write(max(24, 15, 6))
