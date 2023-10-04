@@ -163,7 +163,7 @@ function max(num1, num2, num3){
    }
 }
 document.write(max(24, 15, 6))
-*/
+
 //Switch Statements
 function getDayName(dayNum){
    var day
@@ -200,3 +200,19 @@ function getDayName(dayNum){
    return day
 }
 document.write(getDayName(5))
+*/
+//Objects
+//var fruits = ["Apples", "Orange"]
+var person = {
+   name: "Csenge",
+   age: 26,
+   isMale: false,
+   occupation: "HR generalist",
+   occupation: "Junior programmer",
+   printName: function(){
+      document.write("<h1>"+ this.name +"</h1>")
+   }
+}
+//person.age = 25
+//document.write(person.age + person.name)
+person.printName()
