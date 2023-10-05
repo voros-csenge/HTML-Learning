@@ -236,10 +236,30 @@ var myMovie = {
    ]
 }
 document.write(myMovie.actors[1].hometown)
-*/
+
 //While Loops
 var i = 1;
 while(i <= 10){
    document.write(i + "<br/>");
    i++;
 }
+*/
+//Building a Password Checker
+var Password = "wordpass"
+var response
+var entryCount = 0
+var error = false
+var entryLimit = 3
+while (response != Password && !error) {
+   if (entryCount < entryLimit) {
+      response = window.prompt("Enter Password:")
+      entryCount++
+   } else {
+      error = true
+   }
+}
+   if (error) {
+      alert("Too many entries")
+   } else {
+      alert("You got it!")
+   }
