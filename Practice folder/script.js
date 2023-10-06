@@ -243,7 +243,7 @@ while(i <= 10){
    document.write(i + "<br/>");
    i++;
 }
-*/
+
 //Building a Password Checker
 var Password = "wordpass"
 var response
@@ -263,3 +263,4 @@ while (response != Password && !error) {
    } else {
       alert("You got it!")
    }
+   */
