@@ -1,12 +1,28 @@
-#aranygaluska{
-width: 60%;
+#aranygaluska {
+    width: 60%;
 }
-#kecskesajtos-spenótos-derelye{
+
+#kecskesajtos-spenótos-derelye {
     width: 30%;
 }
-#homepage{
+
+#homepage {
     width: 50%;
 }
-body{
+
+body {
     padding: 13px;
+}
+
+.bettername {
+    width: 10%;
+    /* Initial width */
+    transition: transform 0.8s ease-in-out;
+    transform-origin: 0 0;
+}
+
+.bettername:hover {
+    transform: scale(3);
+    /* Enlarge the image on hover */
+
 }
