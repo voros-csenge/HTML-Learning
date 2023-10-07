@@ -265,12 +265,12 @@ while (response != Password && !error) {
    }
    */
 //For Loops
-var i = 0
+var friends = ["Jim", "Stanley", "Kevin", "Jhon", "Jonathan", "Mark"]
 while(i < 10){
    document.write(i + "<br>")
    i++
 }
 document.write("<br>")
-for(var i = 0; i < 10; i++){
-   document.write(i + "<br>")
+for(var i = 0; i < friends.length; i++){
+   document.write(friends[i] + "<br>")
 }
