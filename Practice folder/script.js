@@ -264,3 +264,13 @@ while (response != Password && !error) {
       alert("You got it!")
    }
    */
+//For Loops
+var i = 0
+while(i < 10){
+   document.write(i + "<br>")
+   i++
+}
+document.write("<br>")
+for(var i = 0; i < 10; i++){
+   document.write(i + "<br>")
+}
