@@ -263,7 +263,7 @@ while (response != Password && !error) {
    } else {
       alert("You got it!")
    }
-   */
+  
 //For Loops
 var friends = ["Jim", "Stanley", "Kevin", "Jhon", "Jonathan", "Mark"]
 while(i < 10){
@@ -274,3 +274,30 @@ document.write("<br>")
 for(var i = 0; i < friends.length; i++){
    document.write(friends[i] + "<br>")
 }
+ */
+// Building a Multipla Choice Quiz
+var questions = [
+   {
+      prompt: "What color are apples?\n(a) Red\n(b) Purple\n(c) Orange",
+      answer: "a"
+   },
+   {
+      prompt: "What coulor are Bananas?\n(a) Blue\n(b) Magenta\n(c) Yellow",
+      answer: "c"
+   },
+   {
+      prompt: "Who is not my dog?\n(a) Piri\n(b) Mango\n(c) Lajka",
+      answer: "b"
+   }
+]
+var score = 0
+for(var i=0; i < questions.length; i++){
+   var response = window.prompt(questions[i].prompt)
+   if(response == questions[i].answer){
+      score++
+      alert("Correct!")
+   } else {
+      alert("WRONG!")
+   }
+}
+alert("You got " + score + "/" + questions.length)
