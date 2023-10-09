@@ -306,9 +306,6 @@ alert("You got " + score + "/" + questions.length)
 var textbox = document.getElementById("textbox");
 var button = document.getElementById("btn");
 button.addEventListener("click", function(){
-   localStorage.name = textbox.value;
-   console.log("Hello dog")
-   console.log(textbox.value)
-   console.log(localStorage.name)
+   localStorage.name= textbox.value;
 });
 document.write(localStorage.name)
