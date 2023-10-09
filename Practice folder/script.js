@@ -274,7 +274,7 @@ document.write("<br>")
 for(var i = 0; i < friends.length; i++){
    document.write(friends[i] + "<br>")
 }
- */
+
 // Building a Multipla Choice Quiz
 var questions = [
    {
@@ -286,7 +286,7 @@ var questions = [
       answer: "c"
    },
    {
-      prompt: "Who is not my dog?\n(a) Piri\n(b) Mango\n(c) Lajka",
+      prompt: "Who is not my dog?\n(a) Piri\n(b) Max\n(c) Lajka",
       answer: "b"
    }
 ]
@@ -301,3 +301,14 @@ for(var i=0; i < questions.length; i++){
    }
 }
 alert("You got " + score + "/" + questions.length)
+ */
+//Web Storage
+var textbox = document.getElementById("textbox");
+var button = document.getElementById("btn");
+button.addEventListener("click", function(){
+   localStorage.name = textbox.value;
+   console.log("Hello dog")
+   console.log(textbox.value)
+   console.log(localStorage.name)
+});
+document.write(localStorage.name)
