@@ -301,7 +301,7 @@ for(var i=0; i < questions.length; i++){
    }
 }
 alert("You got " + score + "/" + questions.length)
- */
+ 
 //Web Storage
 var textbox = document.getElementById("textbox");
 var button = document.getElementById("btn");
@@ -309,3 +309,8 @@ button.addEventListener("click", function(){
    localStorage.name= textbox.value;
 });
 document.write(localStorage.name)
+*/
+//Timing
+ function sayHi(){
+   alert("Hi");
+ }
